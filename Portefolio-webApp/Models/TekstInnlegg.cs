@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace Portefolio_webApp.Models
 {
-    public class Tekst
+    public class TekstInnlegg : Innlegg
     {
+        public string Innhold { get; set; }
     }
 }

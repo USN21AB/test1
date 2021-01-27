@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace Portefolio_webApp.Models
 {
-    public class MusikkInnlegg
+    public class MusikkInnlegg : Innlegg
     {
+        public  string StorageURL { get; set; }
     }
 }
