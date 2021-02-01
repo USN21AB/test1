@@ -28,6 +28,11 @@ namespace Portefolio_webApp.Controllers
             return View();
         }
 
+        public IActionResult BrowseSide()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
